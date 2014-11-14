@@ -1803,7 +1803,6 @@ public class NotificationPanelView extends PanelView implements
 
     private void setListening(boolean listening) {
         mHeader.setListening(listening);
-        mKeyguardStatusBar.setListening(listening);
         mQsPanel.setListening(listening);
     }
 
